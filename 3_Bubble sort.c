@@ -20,7 +20,7 @@ int arr[5]= {8,6,3,4,2};
 printf("Sorted array: \n");
  bubblesort(arr,n);
    for (int i=0; i < n; i++)
-   { printf("%d", arr[i]);
+   { printf("%d ", arr[i]);
    } 
     return 0;
 }
